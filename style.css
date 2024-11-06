@@ -1,0 +1,71 @@
+.jumbotron {
+  min-height: 100vh;
+  margin: auto;
+  padding: 0;
+  background-color: rgb(14, 13, 13);
+}
+
+.jumbotron img {
+  width: 22rem;
+  height: 24rem;
+}
+
+.jumbotron img:hover {
+  width: 22rem;
+  height: 24rem;
+  margin-right: 3rem;
+  transition: 2s;
+}
+
+.jumbotron .konten {
+  display: inline-block;
+  color: rgb(255, 255, 255)
+}
+
+.jumbotron .konten:hover {
+  display: inline-block;
+  transition: 2s;
+  cursor: pointer;
+  font-size: 30rem;
+  margin-left: 3rem;
+  text-shadow: 10rem;}
+  
+  
+
+
+
+.containe #gallery .row .col:hover{
+  margin-top: -3rem;
+  cursor: pointer;
+  transition: 2s;
+
+}
+  
+@media(max-width:497px){
+  .jumbotron img{
+    margin-top: 5rem;
+    width: 12.5rem;
+    height: 13.5rem;
+  }
+}
+
+.jumbotron img:hover {
+  margin-right: 1rem;
+  transition: 2s;
+}
+
+span{
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+}
+
+
+
+
+
+
+  
+
+  
+
